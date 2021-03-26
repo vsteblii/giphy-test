@@ -1,10 +1,7 @@
 # Getting Started 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Install docker
+* Rename .env.example to .env
+    * Update 'GIPHY_API_KEY' value with your GIPHY api key
+    * docker-compose up -d
+    * Wait for build 
+    * Run http://localhost:3001/
